@@ -5,7 +5,7 @@
     font-weight: var(--font-weight-1);
     font-size: var(--font-text-1);
     background-color: var(--color-grey-4);
-    border: 2px solid var(--color-grey-4);
+    border: 0.125rem solid var(--color-grey-4); /* 2px */
     color: var(--color-grey-2);
     border-radius: var(--radius-1);
     cursor: pointer;

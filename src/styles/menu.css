@@ -1,6 +1,6 @@
 .menu{
     width: 100%;
-    padding: 32px 0;
+    padding: 2rem 0; /* 32px */
 }
 
 .menu ul{
