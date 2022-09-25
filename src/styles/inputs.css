@@ -1,12 +1,37 @@
 .input-default{
-    height: var(--size-1);
     width: 100%;
+    padding: var(--padding-3) var(--padding-2);
     border-radius: var(--radius-1);
-    background-color: var(--color-white);
-    padding: 0 var(--paddingLeft);
+    border: 2px solid var(--color-grey-4);
+    background-color: var(--color-white-fixed);
     font-size: var(--font-text-1);
+    color: var(--color-grey-3)
 }
+
 .input-default:hover{
-    background-color: var(--color-grey-4);
-    color: var(--color-grey-1)
+    border: 2px solid var(--color-brand-2);
+}
+
+.input-default:focus{
+    border: 2px solid var(--color-brand-1);
+    color: var(--color-grey-2)
+}
+
+.text-area-default{
+    width: 100%;    
+    padding: var(--padding-1) var(--padding-2);
+    border-radius: var(--radius-1);
+    border: 2px solid var(--color-grey-4);
+    background-color: var(--color-white-fixed);
+    font-size: var(--font-text-1);
+    color: var(--color-grey-3)
+}
+
+.text-area-default:hover{
+    border: 2px solid var(--color-brand-2);
+}
+
+.text-area-default:focus{
+    border: 2px solid var(--color-brand-1);
+    color: var(--color-grey-2)
 }
