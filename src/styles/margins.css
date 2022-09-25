@@ -1,3 +1,19 @@
+.m-0{
+    margin: var(--gap-0);
+}
+.mt-0{
+    margin-top: var(--gap-0);
+}
+.mr-0{
+    margin-right: var(--gap-0);
+}
+.ml-0{
+    margin-left: var(--gap-0);
+}
+.mb-0{
+    margin-bottom: var(--gap-0);
+}
+
 .m-1{
     margin: var(--gap-1);
 }
@@ -76,4 +92,20 @@
 }
 .mb-5{
     margin-bottom: var(--gap-5);
+}
+
+.m-6{
+    margin: var(--gap-6);
+}
+.mt-6{
+    margin-top: var(--gap-6);
+}
+.mr-6{
+    margin-right: var(--gap-6);
+}
+.ml-6{
+    margin-left: var(--gap-6);
+}
+.mb-6{
+    margin-bottom: var(--gap-6);
 }
